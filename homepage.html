@@ -14,21 +14,36 @@
         <h1>BOOK LIBRARY</h1>
     </div>
     <div class="form">
-        <form action="script.js" >
+        <form >
 
-            <input type="text" id="b-titile" placeholder="Title">
-
+            <input type="text" id="title" placeholder="Title">
             <input type="number" id="pages" placeholder="Pages">
-
             <input type="text" id="author" placeholder="Author">
- 
             <input type="option" id="status" placeholder="Status">
 
-
-            <button type="submit" id="submit"> Add book</button> 
- 
+            <input type="button" id="submit" value="Add Book" onclick="addBookToLibrary()"> 
         </form>
     </div>
+
+    <div class="table">
+        <table>
+            <tr>
+                <th>TITLE</th>
+                <th>AUTHOR</th>
+                <th>PAGES</th>
+                <th>STATUS</th>
+            </tr>
+            
+            <tr>
+                <td>Zero to One</td>
+                <td>Peter</td>
+                <td>3</td>
+                <td>Completed</td>
+            </tr>
+        </table>
+    </div>
+
+
     
     <script src="script.js"></script>
 </body>

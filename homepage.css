@@ -45,3 +45,19 @@
     font-weight: bolder;
     box-shadow: 2px black;
 }
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.table th{
+    background-color: #BD5A5A;
+    border-bottom: 2px solid;
+    width: 220px;
+}
+
+.table td{
+    border-bottom: 2px solid;
+}

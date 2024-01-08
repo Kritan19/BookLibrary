@@ -47,16 +47,20 @@
     font-weight: bolder;
     box-shadow: 2px black;
 }
+.form #submit:hover{
+    opacity: 70%;
+}
 #table{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 30px;
 }
-thead{
+/* thead{
     background-color: #BD5A5A;
-}
+} */
 thead th{
-    border-right: 2px solid;
-    padding: 5px;
+    background-color: #BD5A5A;
+    padding: 5px; 
+    width: 190px;
 }

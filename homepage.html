@@ -14,34 +14,33 @@
         <h1>BOOK LIBRARY</h1>
     </div>
     <div class="form">
-        <form >
+        <form method="post" name="details">
 
             <input type="text" id="title" placeholder="Title">
             <input type="number" id="pages" placeholder="Pages">
             <input type="text" id="author" placeholder="Author">
-            <input type="option" id="status" placeholder="Status">
 
-            <input type="button" id="submit" value="Add Book" onclick="addBookToLibrary()"> 
+            <select id="select_status">
+                <option value="" disabled selected>Status</option>
+                <option value="complete">Complete</option>
+                <option value="incomplete">Incomplete</option>
+            </select>
+
+            <input type="button" id="submit" value="Add Book" onclick="addBookToLibrary(event)">
         </form>
     </div>
 
-    <div class="table">
-        <table>
-            <tr>
-                <th>TITLE</th>
-                <th>AUTHOR</th>
-                <th>PAGES</th>
-                <th>STATUS</th>
-            </tr>
-            
-            <tr>
-                <td>Zero to One</td>
-                <td>Peter</td>
-                <td>3</td>
-                <td>Completed</td>
-            </tr>
-        </table>
-    </div>
+    <table id="table" >
+        <thead>
+            <th>TITLE</th>
+            <th>PAGES</th>
+            <th>AUTHOR</th>
+            <th>STATUS</th>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
 
 
     

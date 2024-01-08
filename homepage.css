@@ -27,13 +27,15 @@
     padding: 20px 0px;
     flex-direction: row;
 }
-.form input{
+.form input,
+#select_status{
     height: 30px;
     width: 170px;
     margin: 10px;
     padding-left: 15px ;
     font-size: 15px;
     border-radius: 25px;
+    border: 2px solid;
 }
 .form #submit{
     height: 30px;
@@ -45,19 +47,16 @@
     font-weight: bolder;
     box-shadow: 2px black;
 }
-.table{
+#table{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 30px;
 }
-
-.table th{
+thead{
     background-color: #BD5A5A;
-    border-bottom: 2px solid;
-    width: 220px;
 }
-
-.table td{
-    border-bottom: 2px solid;
+thead th{
+    border-right: 2px solid;
+    padding: 5px;
 }

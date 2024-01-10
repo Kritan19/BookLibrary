@@ -54,13 +54,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px;
 }
-/* thead{
-    background-color: #BD5A5A;
-} */
+thead , tbody{
+    background-color: black;
+}
 thead th{
     background-color: #BD5A5A;
     padding: 5px; 
     width: 190px;
+    height: 50px;
+}
+td{
+    padding-left: 10px;
+    height: 32px;
+}
+
+tr button{
+    padding: 1px 4px;
+    width: 50px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+tr button:hover{
+    opacity: 70%;
 }

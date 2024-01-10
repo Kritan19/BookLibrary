@@ -70,5 +70,5 @@ function displayBook(arr){
     }
     thead.appendChild(tr);
 }
-//main program strts here;
+//main program starts here;
 const booksLibrary = [];
